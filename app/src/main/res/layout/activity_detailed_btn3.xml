@@ -1,0 +1,88 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkg"
+    tools:context=".Detailed_btn3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Cupcake"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:id="@+id/cardImage"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="179dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cupcake" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chocolate Cupcake"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: 1.600 OR"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn3_add"
+        android:layout_width="388dp"
+        android:layout_height="89dp"
+        android:backgroundTint="@color/white"
+        android:text="Add to chart"
+        android:textColor="@color/purple"
+        android:textSize="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="305dp"/>
+
+
+    <Button
+        android:id="@+id/btn3_back"
+        android:layout_width="218dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple"
+        android:text="back"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+</LinearLayout>
